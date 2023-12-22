@@ -82,11 +82,26 @@ const unbind = obj.getValue
 // const bindValue = obj.getValue.bind(getValue);
 // console.log(bindValue());
 
-console.log([1, 2, 3] + [4, 5, 6]);
+// console.log([1, 2, 3] + [4, 5, 6]);
 
 x= [1, 2, 3];
 y = x;
 y.push(4);
 
-console.log(x.length, + y.length);
-console.log(typeof x === y);
+// console.log(x.length, + y.length);
+// console.log(typeof x === y);
+
+a = (cb) => {
+    x = 'hello'
+};
+
+// a((arg) => console.log(arg))
+
+p1 = Promise.resolve('one');
+p2 = p1.then((r) => r + " two");
+
+// p2.then((x) => console.log('result', x,  x.length));
+
+n = "Bob";
+p = {n};
+console.log(p.n);
