@@ -104,4 +104,10 @@ p2 = p1.then((r) => r + " two");
 
 n = "Bob";
 p = {n};
-console.log(p.n);
+// console.log(p.n);
+
+a1 = [1, 2];
+a2 = [3, 4];
+c = [...a2, ...a1];
+
+// console.log(c[1]);
