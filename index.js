@@ -111,3 +111,21 @@ a2 = [3, 4];
 c = [...a2, ...a1];
 
 // console.log(c[1]);
+
+a = [
+{
+name: "Dimo",
+age: 43
+},
+{
+name: "ivan",
+age:15
+}
+];
+
+indexToChange = a.findIndex(x => x.name === "ivan");
+console.log(indexToChange);
+
+a.splice(indexToChange, 1, 'dimo')
+
+console.log(a);

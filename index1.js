@@ -35,5 +35,10 @@ y = 3;
 a = '6'
 b = 3
 
-console.log(a - b);
-console.log(a + b);
+// console.log(a - b);
+// console.log(a + b);
+
+prop = "age";
+person = {[prop]: 30};
+
+console.log(person.prop);
