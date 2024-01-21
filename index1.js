@@ -47,9 +47,10 @@ x = [1, 2, 3, 5];
 
 x.forEach((e) => {
     if (e < 3 || e === 5) {
-        console.log(e, e < 3, e === 5);
+        // console.log(e, e < 3, e === 5);
         return
     }; 
     // TF/ TF / FF
-    console.log(e);
+    // console.log(e);
 })
+
