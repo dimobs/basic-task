@@ -128,4 +128,23 @@ console.log(indexToChange);
 
 a.splice(indexToChange, 1, 'dimo')
 
-console.log(a);
+// console.log(a);
+
+// console.log("result",  "5" - 2);
+
+
+const user = [
+    {
+        firstName: "Dimo",
+        lastName: "Smith"
+    },
+    {
+        firstName: "Jane",
+        lastName: "Doe"
+    }
+];
+
+console.table(user);
+
+
+
