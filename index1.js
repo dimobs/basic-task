@@ -54,3 +54,25 @@ x.forEach((e) => {
     // console.log(e);
 })
 
+const foo = [1, 2, 3];
+const bar = foo.concat([4,5]);
+const baz = [...foo, 4, 5]
+
+// console.log(bar, baz);
+
+//[1, 2, 3][4, 5], [1, 2, 3, 4, 5] B)
+
+const obj = {prop: 19};
+const arr = [obj]
+
+arr[0].prop = 20;
+
+// console.log(obj.prop);
+
+let xxx = 2;
+
+// function asd (){
+//     console.log(xxx);
+//     let xxx = 45
+// }
+// asd()
